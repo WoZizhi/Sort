@@ -24,13 +24,9 @@ void shell_sort(int arr[], int num) {
 int main() {
 	int n, q[N];
 	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cin >> q[i];
-	}
+	for (int i = 0; i < n; i++) cin >> q[i];
 	shell_sort(q, n);
-	for (int i = 0; i < n; i++) {
-		cout << q[i] << " ";
-	}
+	for (int i = 0; i < n; i++) cout << q[i] << " ";
 
 	system("pause");
 	return 0;
